@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/bmi-calculator-shows-healthy-weight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 21rem;
+}
+
+.bmi_form {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+label.bmi_label {
+    text-align: left;
+}
+
+.bmi_weight {
+    margin-bottom: 20px;
+}
+
+.bmi_height {
+    margin-bottom: 8px;
+}
+
+.bmi_para {
+    background-color: blue;
+    color: white;
+    text-shadow: 20px;
+}
+
+.bmi_button {
+    margin-top: 20px;
+}

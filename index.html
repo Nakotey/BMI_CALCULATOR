@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAKOS-BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <h1>Know your Body Mass Index(BMI)</h1>
+    <h4><i>Health a priority...</i></h4>
+
+    <form class="bmi_form" action="">
+        <label class="bmi_label" for="weight">Weight (kg):</label><br>
+        <input class="bmi_weight" type="number" id="weight" name="weight" min="1" placeholder="weight in kg"><br>
+        <label class="bmi_label" for="height">Height (m):</label><br>
+        <input class="bmi_height" type="number" id="height" name="height" min="1" placeholder="height in m"><br><br>
+        <span class="bmi_para"></span><br>
+        <button class="bmi_button" type="button">Compute BMI</button>
+        <input class="bmi_reset" type="reset">
+      </form>
+
+    <script src="script/script.js" defer></script>
+
+</body>
+</html>
